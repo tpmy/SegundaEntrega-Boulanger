@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+a {
+    text-decoration: none;
+}
+p {
+    line-height: 1.5;
+  }
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+/* hero */
+.hero {
+  background-image: linear-gradient(45deg, #dc890e, #b45c10);
+  padding: 50px 20px;
+  color: #07090c;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+}
+
+.hero__grid-content h1 {
+  color: rgb(26, 20, 20);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero__grid-content p {
+  margin-bottom: 40px;
+}
+
+.hero__grid-content a {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero__grid-content a:hover {
+  background-color: #1e293b;
+} 
+
+.hero__grid-video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgba(0, 0, 0, 0.8);
+}
+/* tarjetas */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.contact {     
+  display: flex;     
+  justify-content: center; }    
+  
+.contacto {         
+  display: flex;         
+  justify-content: center;         
+  width: 900px;         
+  height: 550px;         
+  background-color:#dc890e ;
+  border-radius: 20px;}         
+  
+.contactoLabels{             
+  display: flex;             
+  flex-direction: column;             
+  justify-content: center;             
+  margin: 50px;  
+}     
+
+.contactoUno {             
+  padding: 10px 0px;             
+  font-weight: bold;         
+}     
+
+.contactoDos {
+padding: 10px 0px;             
+font-weight: bold;         
+}   
+
+.contactoTres { 
+padding: 10px 0px;             
+font-weight: bold;         
+}     
+
+.contactoCuatro {
+display: flex;             
+flex-direction: column;             
+padding: 10px 0px;             
+font-weight: bold;             
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: #dc890e;
+  font-size: 17px;
+  font-weight: bold;
+}
+.contactoTelefonos {
+display: flex;
+flex-direction: column;
+margin: 50px;}
+.contactoP {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+.contactoCinco {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+/* footer */
+.footer {
+  background-image: linear-gradient(45deg, #dc890e, #b45c10);
+  color: #0a0d11;
+  padding: 50px 20px;
+  margin-top: 100px ;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.footer__grid h4 {
+  color: #080e0a;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer__grid-list li {
+  margin: 10px 0px;
+}
+.top{
+  margin-top: 45px;
+}
+.footer__grid-list li a {
+  color: #222222;
+  transition: color 0.3s;
+}
+.footer__grid-list li a:hover {
+  color: #7c7b79 ;  
+}
+.footer__rrss {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__rrss a {
+  color: #15140d;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+.footer__rrss a:hover {
+  color: #919090;
+}
